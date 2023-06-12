@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drawn Game</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <div class="cadastro">
+        <div class="container">
+            <h2>Cadastro</h2>
+            <form onsubmit="return validateForm()">
+            <div>
+                <input type="text" id="apelido" name="apelido" placeholder="Apelido" required>
+            </div>
+            <div>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div>
+                <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            </div>
+            <div>
+                <input type="password" id="confirmar-senha" name="confirmar-senha" placeholder="Confirmar Senha" required>
+            </div>
+            <span id="error-message" class="error-message"></span>
+            <input type="submit" value="Cadastrar">
+            </form>
+        </div>
+        <img class="logo" src="./img/WhatsApp Image 2023-06-12 at 08.32.07.jpeg" alt="">
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
